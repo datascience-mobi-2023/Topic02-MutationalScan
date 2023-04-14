@@ -21,7 +21,7 @@ Tutor: _Benedict Wolf_ ([b.wolf@stud.uni-heidelberg.de](mailto:b.wolf@stud.uni-h
 
 Introduction
 ------------
-Deep mutational scanning (DMS) is a powerful experimental technique to analyse the effects of mutations on protein function. The technique builds on large protein variant libraries, where each variant carries a different single or multiple mutations. High-throughput screening of such libraries for functional variants enables enables the mapping between mutations and their effects on protein activity.
+Deep mutational scanning (DMS) is a powerful experimental technique to analyse the effects of mutations on protein function. The technique builds on large protein variant libraries, where each variant carries a different single or multiple mutations. High-throughput screening of such libraries for functional variants enables the mapping between mutations and their effects on protein activity.
 By comparing the abundance of each variant in the library before and after the screening or selection process, deep mutational scanning enables researchers to infer the effects of each mutation on the molecule's function and to construct detailed maps of how sequence variation affects molecular activity. This approach has been applied to a wide range of biological systems, including enzymes, receptors, transcription factors, and viruses, and has provided valuable insights into how molecular evolution proceeds and how proteins and nucleic acids achieve their specific functions.
 In this practical, we want to explore DMS data from various proteins and try to identify general patterns that exist throughout the dataset. Based on this information we will try to develop models that can help us to identify mutation tolerant sites.
 Finally, we will compare the results to mutation patterns derived from evolutionary related proteins and will interpret them.
@@ -36,7 +36,7 @@ You will analyze a dataset that encompasses DMS results corresponding different 
 - How do these compare to evolutionary conservation.
 - Can you identify a subset of features that can help with the prediction of mutation tolerance?
 
-The exemplify the observations and effects in detail, each group can focus on one of the following proteins:  
+To exemplify the observations and effects in detail, each group can focus on one of the following proteins:  
 1) E. coli beta-lactamase
 2) TP53
 3) GFP
@@ -99,12 +99,12 @@ presentation + 5 minutes discussion).
 
 ### Project
 
-You project **MUST** contain the following elements:
+You project should contain the following elements:
 - **descriptive statistics** about the datasets
 - **graphical representations**
 - **dimension reduction** analysis (PCA, clustering or k-means)
 - **statistical tests** (t-test, proportion tests etc)
-- **linear regression** analysis, either uni- or multivariate
+- **linear regression** analysis, either uni- or multivariate _(this point is optional!)_
 
 #### Data cleanup
 
